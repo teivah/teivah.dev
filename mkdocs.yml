@@ -30,14 +30,10 @@ theme:
     primary: blue grey
     accent: grey
 nav:
-  - Me:
-    - index.md
-  - 100 Go Mistakes:
-    - book.md
-  - Talks:
-    - talks.md
-  - Contact:
-    - contact.md
+  - index.md
+  - book.md
+  - talks.md
+  - contact.md
 plugins:
 - redirects:
     redirect_maps:

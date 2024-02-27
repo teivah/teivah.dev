@@ -5,7 +5,7 @@ hide:
 - footer
 ---
 
-# Teiva Harsanyi's Talks
+# Talks
 
 In-person events:
 
