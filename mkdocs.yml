@@ -3,3 +3,9 @@ site_url: https://teivah.dev
 repo_name: teivah/teivah.dev
 theme:
   name: material
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+nav:
+  - index.md
+  - jobs.md
