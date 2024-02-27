@@ -33,6 +33,7 @@ nav:
   - index.md
   - book.md
   - talks.md
+  - interview.md
   - contact.md
 plugins:
 - redirects:

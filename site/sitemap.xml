@@ -16,6 +16,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://teivah.dev/interview/</loc>
+         <lastmod>2024-02-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://teivah.dev/talks/</loc>
          <lastmod>2024-02-27</lastmod>
          <changefreq>daily</changefreq>
