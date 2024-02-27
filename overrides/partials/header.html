@@ -41,23 +41,6 @@
       {% include ".icons/" ~ icon ~ ".svg" %}
     </label>
 
-    <!-- Color palette toggle -->
-    {% if config.theme.palette %}
-    {% if not config.theme.palette is mapping %}
-    {% include "partials/palette.html" %}
-    {% endif %}
-    {% endif %}
-
-    <!-- User preference: color palette -->
-    {% if not config.theme.palette is mapping %}
-    {% include "partials/javascripts/palette.html" %}
-    {% endif %}
-
-    <!-- Site language selector -->
-    {% if config.extra.alternate %}
-    {% include "partials/alternate.html" %}
-    {% endif %}
-
     <!-- Button to open search modal -->
     {% if "material/search" in config.plugins %}
     <label class="md-header__button md-icon" for="__search">
