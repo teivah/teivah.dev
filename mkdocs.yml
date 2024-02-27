@@ -38,7 +38,10 @@ nav:
     - talks.md
   - Contact:
     - contact.md
-plugins: []
+plugins:
+- redirects:
+    redirect_maps:
+      'blog.md': 'https://teivah.medium.com/'
 extra:
   generator: false
 markdown_extensions:
