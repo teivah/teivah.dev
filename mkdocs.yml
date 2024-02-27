@@ -5,7 +5,7 @@ theme:
   name: material
   favicon: img/avatar.jpg
   icon:
-    logo: material/home
+    logo: material/coffee
   custom_dir: overrides
   features:
     - navigation.expand
