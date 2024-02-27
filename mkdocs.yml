@@ -42,6 +42,8 @@ plugins:
 - redirects:
     redirect_maps:
       'blog.md': 'https://teivah.medium.com/'
+      'confoo-reliability.md': 'https://docs.google.com/presentation/d/e/2PACX-1vSliUbEggyAxG6lXczPtR_lGRR5UIURiEJ3mlyf9Hlw-BNcfxloTWIPcwjmxeAgGxbnIAyodtpuLkEc/pub?start=false&loop=false'
+      'confoo-aoc.md': 'https://docs.google.com/presentation/d/e/2PACX-1vS4opZu2emQk76w2u1PD9YZxOpbCY8I-qWbKY6USTCrlHAGlvfirktuINnJKtCwMR3QBpt4-ayLXqQ2/pub?start=false&loop=false'
 extra:
   generator: false
 markdown_extensions:
