@@ -43,6 +43,9 @@ plugins:
       'confoo-aoc.md': 'https://docs.google.com/presentation/d/e/2PACX-1vS4opZu2emQk76w2u1PD9YZxOpbCY8I-qWbKY6USTCrlHAGlvfirktuINnJKtCwMR3QBpt4-ayLXqQ2/pub?start=false&loop=false'
 extra:
   generator: false
+  analytics:
+    provider: google
+    property: G-YK142LCQX3
 markdown_extensions:
   - md_in_html
   - attr_list
