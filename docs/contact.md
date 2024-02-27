@@ -7,4 +7,6 @@ hide:
 
 # Contact
 
-[Twitter](https://twitter.com/teivah) DM or `hi` at the domain name of this website.
+* Private: Email `hi` at the domain name of this website or [Twitter](https://twitter.com/teivah) DM
+
+* Public: :simple-github: [teivah/teivah.dev](https://github.com/teivah/teivah.dev/discussions) discussions

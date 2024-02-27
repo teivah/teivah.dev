@@ -28,4 +28,4 @@ If you're a Go developer looking to improve your skills, this book is for you. W
 
 ## Website
 
-If you're interested, I created a website that summarizes the content of my book: [100go.co](https://100go.co).
+:fontawesome-brands-golang: If you're interested, I created a website that summarizes the content of my book: [100go.co](https://100go.co).
