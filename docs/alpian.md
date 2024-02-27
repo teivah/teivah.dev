@@ -1,0 +1,3 @@
+# Redirect...
+
+<meta http-equiv="refresh" content="0; URL=https://docs.google.com/presentation/d/e/2PACX-1vSA9LU4wSoOQLINs9Jja6iBuJMvyWIJ7tyX_j1m2uJ9lluBtUvL1QDhk3CCnATPB3OVNympqb1ip63m/pub?start=false&loop=false">

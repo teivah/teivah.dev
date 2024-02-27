@@ -1,11 +1,43 @@
-# Welcome to MkDocs
+---
+title: Teiva Harsanyi
+hide:
+- navigation
+- toc
+- footer
+---
+<style>
+  .md-typeset h1,
+  .md-content__button {
+    display: none;
+  }
+</style>
+
+<center>
+<img src="../img/avatar.jpg" alt="" style="width:300px;height:300px;border-radius: 50%;">
+
+<th1>Teiva Harsanyi</th1>
+
+<th2>Senior Software Engineer at Google</th2>
+
+<th3>Current status: _Learning Haskell._</th3>
+
+
+<th2>[:fontawesome-brands-x-twitter:](https://twitter.com/teivah)
+[:simple-github:](https://github.com/teivah)
+[:simple-medium:](https://medium.com/@teivah)
+[:simple-linkedin:](https://www.linkedin.com/in/teiva-harsanyi/)<th2>
+
+</center>
+
+--- 
+
 
 I'm a software engineer specializing in distributed systems, scalability, reliability, and observability topics. I have extensive experience designing, implementing, and operating resilient, responsive, scalable, and maintainable systems. Meanwhile, I love meeting challenges, learning, and sharing.
 
 My life philosophy relies on 改善 (Kaizen, ‘change for better’). In a nutshell, it’s not important how fast you can be; what’s essential is to improve continuously. I strive to apply this philosophy to my personal and professional life, constantly seeking to learn and grow.
 
-I have 12 years of experience in software engineering. I’m currently working at Google as a senior software engineer in the ML SRE team. Before that, I worked in different companies. At Docker, I was a software engineer in the registry team, maintaining systems like Docker registry, Hub & search. At Beat, I was a staff engineer in the matching domain, where I designed, implemented, and operated critical services with a strong focus on reliability and observability. At Utility Warehouse, I refactored the company’s notification platform from a distributed monolith to a microservice paradigm leading to an elastic architecture and an average latency reduction of +90%. At SkySoft-ATM, I worked in a safety-critical environment in the context of the Swiss air navigation service provider, where I designed, proposed, and implemented the company's central data repository used to store and compute flight events. Before, I worked as a tech lead and architect at Axa and Airbus Helicopters on integration platforms.
+I have 12 years of experience in software engineering. I’m currently working at Google as a senior software engineer SRE in the ML Compute team. Before that, I worked in different companies. At Docker, I was a software engineer in the registry team, maintaining systems like Docker registry, Hub & search. At Beat, I was a staff engineer in the matching domain, where I designed, implemented, and operated critical services with a strong focus on reliability and observability. At Utility Warehouse, I refactored the company’s notification platform from a distributed monolith to a microservice paradigm leading to an elastic architecture and an average latency reduction of +90%. At SkySoft-ATM, I worked in a safety-critical environment in the context of the Swiss air navigation service provider, where I designed, proposed, and implemented the company's central data repository used to store and compute flight events. Before, I worked as a tech lead and architect at Axa and Airbus Helicopters on integration platforms.
 
-In 2022, I published a book called [100 Go Mistakes and How to Avoid Them](https://100go.co/book/). In summary, it shows common programming mistakes in Go and how to fix them using idiomatic code. So far, it has a pretty cool note of 4.7/5 (avg on [Amazon.com](https://www.amazon.com/100-Mistakes-How-Avoid-Them/dp/1617299596), [Goodreads.com](https://www.goodreads.com/book/show/58571862-100-go-mistakes-and-how-to-avoid-them), and [Manning.com](https://www.manning.com/books/100-go-mistakes-and-how-to-avoid-them)), and I’m delighted that it helped that many people (over 8k copies sold, translated in five languages). Meanwhile, I keep writing on my blog: [blog.teivah.io](http://blog.teivah.io) (50+ posts, ~800k visits).
+In 2022, I published a book called [100 Go Mistakes and How to Avoid Them](book.md). In summary, it shows common programming mistakes in Go and how to fix them using idiomatic code. So far, it has a pretty cool note of 4.7/5 (avg on Amazon, Goodreads, and Manning), and I’m delighted that it helped that many people (over 8k copies sold, translated in five languages). Meanwhile, I keep writing on my [blog](https://teivah.medium.com/) (50+ posts, ~800k visits).
 
-Furthermore, you can access my [GitHub page](https://github.com/teivah/) and find the list of my [talks](https://github.com/teivah/talks).
+Last but not least, I'm also a speaker. You can find the list of my talks [here](talks.md).

@@ -3,9 +3,53 @@ site_url: https://teivah.dev
 repo_name: teivah/teivah.dev
 theme:
   name: material
+  favicon: img/avatar.jpg
+  icon:
+    logo: material/home
+  custom_dir: overrides
   features:
+    - navigation.expand
+    - navigation.sections
     - navigation.instant
     - navigation.instant.prefetch
+    - navigation.tabs
+    - navigation.tabs.sticky
+  palette:
+  # Palette toggle for light mode
+  - scheme: default
+    toggle:
+      icon: material/brightness-7
+      name: Switch to dark mode
+    primary: blue
+    accent: orange
+  # Palette toggle for dark mode
+  - scheme: slate
+    toggle:
+      icon: material/brightness-4
+      name: Switch to light mode
+    primary: blue grey
+    accent: grey
 nav:
-  - index.md
-  - jobs.md
+  - Me:
+    - index.md
+  - 100 Go Mistakes:
+    - book.md
+  - Talks:
+    - talks.md
+  - Contact:
+    - contact.md
+plugins: []
+extra:
+  generator: false
+markdown_extensions:
+  - md_in_html
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+copyright: Copyright &copy; 2016 - 2024 Teiva Harsanyi
+extra_css:
+- style.css
