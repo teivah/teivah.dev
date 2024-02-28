@@ -18,3 +18,5 @@ th3 {
 body {
   background: #FCFCFC;
 }
+
+.md-typeset .md-button--stretch { width: 100%; }
