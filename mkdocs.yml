@@ -30,7 +30,7 @@ theme:
     primary: blue grey
     accent: grey
 nav:
-  - index.md
+  - 'Teiva Harsanyi': index.md
   - book.md
   - talks.md
   - interview.md

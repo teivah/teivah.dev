@@ -1,4 +1,5 @@
 ---
+description: Interview preparations
 hide:
 - navigation
 - toc

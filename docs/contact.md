@@ -1,4 +1,5 @@
 ---
+description: Contact Teiva Harsanyi
 hide:
   - navigation
   - toc

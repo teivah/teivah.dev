@@ -1,5 +1,6 @@
 ---
-title: Connect
+title: Let's Connect
+description: Connect with Teiva Harsanyi
 hide:
 - navigation
 - toc

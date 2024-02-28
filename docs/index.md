@@ -1,5 +1,5 @@
 ---
-title: Teiva Harsanyi
+description: Teiva Harsanyi
 hide:
 - navigation
 - toc
