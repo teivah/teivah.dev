@@ -6,6 +6,8 @@ theme:
   favicon: img/avatar.jpg
   icon:
     logo: material/coffee
+    admonition:
+      tip: material/format-quote-close
   custom_dir: overrides
   features:
     - navigation.expand

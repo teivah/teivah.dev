@@ -24,3 +24,8 @@ body {
 .md-sidebar--secondary {
   order: 0;
 }
+
+.md-typeset .admonition,
+.md-typeset details {
+  font-size: 15px
+}

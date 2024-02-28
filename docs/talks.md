@@ -1,11 +1,12 @@
 ---
+title: Talks
 description: Teiva Harsanyi's talks
 hide:
 - navigation
 - footer
 ---
 
-# Talks
+# Teiva Harsanyi's Talks
 
 In-person events:
 
