@@ -1,10 +1,11 @@
 ---
-title: 100 Go Mistakes
 hide:
 - navigation
 - toc
 - footer
 ---
+
+# 100 Go Mistakes
 
 In 2022, I published my first (and last) book: _100 Go Mistakes and How to Avoid Them_ (Manning).
 

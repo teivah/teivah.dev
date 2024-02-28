@@ -1,10 +1,11 @@
 ---
-title: Coding and System Interviews Preparation
 hide:
 - navigation
 - toc
 - footer
 ---
+
+# Coding and System Interviews Preparation
 
 I released two open-source collections of flash cards that allowed me to get into a FAANG company (5k+ ⭐ on :simple-github:).
 
