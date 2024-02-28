@@ -26,6 +26,8 @@ hide:
 
 [Goodreads :simple-goodreads:](https://www.goodreads.com/author/show/21665892.Teiva_Harsanyi){ .md-button .md-button--stretch }
 
+[Email :material-email:](email.txt){ .md-button .md-button--stretch }
+
 </div>
 
 </center>
