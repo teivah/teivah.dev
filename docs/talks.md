@@ -72,13 +72,11 @@ Slides:
 
 <span style="color:gray;">_Tags: #golang #kubernetes #performance_</span>
 
-* Slides:
+<iframe width="960" height="540" src="https://www.youtube.com/embed/OEuxfTaRB9Y?si=tjWYqX6XchAcDgS4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Slides:
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRabs0KJAXj80z3WzDP40ZAfXBNPKpUiDE2_jgl0jqvXcvw9FcphBj5tlOwRzQUIDE4qMQx6NP37W76/embed?start=false&loop=false" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
- 
-* [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vRabs0KJAXj80z3WzDP40ZAfXBNPKpUiDE2_jgl0jqvXcvw9FcphBj5tlOwRzQUIDE4qMQx6NP37W76/pub?start=false&loop=false#slide=id.p)
-  
-* [Video](https://www.p99conf.io/session/running-a-go-app-in-kubernetes-cpu-impacts/) (registration required)
 
 ### 3 Erreurs Courantes en Go - [Golang Paris](https://www.meetup.com/fr-FR/golang-paris/) meetup
 
