@@ -14,6 +14,12 @@ In-person events:
 
 ## 2024
 
+### J'ai terminé les 9 Advents of Code : Leçons Apprises - [Devoxx France](https://www.devoxx.fr/) conference (🇫🇷)
+
+<span style="color:gray;">_Tags: #coding_</span>
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSOgd5vigV3pKWWX8sGR_ey8LOJnoJH_U0Yfimz2ktSEsyeuue69TqQRuXZ34_E7nyRpstlvPF4uObO/embed?start=false&loop=false" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
 ### 4 Reliability Anti-Patterns - [ConFoo](https://confoo.ca/en/2024/) conference
 
 <span style="color:gray;">_Tags: #reliability #sre_</span>
@@ -56,7 +62,7 @@ Slides:
 
 <iframe width="960" height="540" src="https://www.youtube.com/embed/RdQMjTgAfDs?si=h_ywNhbvAdF2WvFs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-### 3 Reliability Anti-Patterns - [SRE France](https://www.meetup.com/fr-FR/site-reliability-engineering-france/events/296967843/) meetup
+### 3 Reliability Anti-Patterns - [SRE France](https://www.meetup.com/fr-FR/site-reliability-engineering-france/events/296967843/) meetup (🇫🇷)
 
 <span style="color:gray;">_Tags: #reliability # sre_</span>
 
