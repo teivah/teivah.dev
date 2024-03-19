@@ -35,7 +35,7 @@ nav:
   - 'Teiva Harsanyi': index.md
   - book.md
   - talks.md
-  - interview.md
+  - resources.md
   - contact.md
 plugins:
 - redirects:
@@ -43,6 +43,7 @@ plugins:
       'blog.md': 'https://teivah.medium.com/'
       'confoo-reliability.md': 'https://docs.google.com/presentation/d/e/2PACX-1vSliUbEggyAxG6lXczPtR_lGRR5UIURiEJ3mlyf9Hlw-BNcfxloTWIPcwjmxeAgGxbnIAyodtpuLkEc/pub?start=false&loop=false'
       'confoo-aoc.md': 'https://docs.google.com/presentation/d/e/2PACX-1vS4opZu2emQk76w2u1PD9YZxOpbCY8I-qWbKY6USTCrlHAGlvfirktuINnJKtCwMR3QBpt4-ayLXqQ2/pub?start=false&loop=false'
+      'devoxx-aoc.md': 'https://teivah.dev/talks/#jai-termine-les-9-advents-of-code-lecons-apprises-devoxx-france-conference'
 extra:
   generator: false
   analytics:
