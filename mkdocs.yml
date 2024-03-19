@@ -35,7 +35,7 @@ nav:
   - 'Teiva Harsanyi': index.md
   - book.md
   - talks.md
-  - interview.md
+  - resources.md
   - contact.md
 plugins:
 - redirects:

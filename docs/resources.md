@@ -1,5 +1,6 @@
 ---
-description: Interview preparations
+title: Resources
+description: Teiva Harsanyi's Resources
 hide:
 - navigation
 - toc
@@ -8,7 +9,7 @@ hide:
 
 # Coding and System Interviews Preparation
 
-I released two open-source collections of flash cards that allowed me to get into a FAANG company (5k+ ⭐ on :simple-github:).
+I released two open-source collections of flash cards that allowed me to get into a FAANG company: AlgoDeck and DesignDeck (5k+ ⭐ on :simple-github:).
 
 Feel free to have a look:
 

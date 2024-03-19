@@ -23,8 +23,6 @@ hide:
 
 [LinkedIn :simple-linkedin:](https://www.linkedin.com/in/teiva-harsanyi/){ .md-button .md-button--stretch }
 
-[Reddit :fontawesome-brands-reddit-alien:](https://www.reddit.com/user/teivah/){ .md-button .md-button--stretch }
-
 [Goodreads :simple-goodreads:](https://www.goodreads.com/author/show/21665892.Teiva_Harsanyi){ .md-button .md-button--stretch }
 
 [Email :material-email:](email.txt){ .md-button .md-button--stretch }
