@@ -41,8 +41,8 @@ plugins:
 - redirects:
     redirect_maps:
       'blog.md': 'https://teivah.medium.com/'
-      'confoo-reliability.md': 'https://docs.google.com/presentation/d/e/2PACX-1vSliUbEggyAxG6lXczPtR_lGRR5UIURiEJ3mlyf9Hlw-BNcfxloTWIPcwjmxeAgGxbnIAyodtpuLkEc/pub?start=false&loop=false'
-      'confoo-aoc.md': 'https://docs.google.com/presentation/d/e/2PACX-1vS4opZu2emQk76w2u1PD9YZxOpbCY8I-qWbKY6USTCrlHAGlvfirktuINnJKtCwMR3QBpt4-ayLXqQ2/pub?start=false&loop=false'
+      'confoo-reliability.md': 'https://teivah.dev/talks/#4-reliability-anti-patterns-confoo-conference'
+      'confoo-aoc.md': 'https://teivah.dev/talks/#i-completed-all-9-advents-of-code-lessons-learned-confoo-conference'
       'devoxx-aoc.md': 'https://teivah.dev/talks/#jai-termine-les-9-advents-of-code-lecons-apprises-devoxx-france-conference'
 extra:
   generator: false
