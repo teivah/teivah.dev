@@ -8,9 +8,7 @@ hide:
 
 # Teiva Harsanyi's Talks
 
-In-person events:
-
-![](img/mapchart.net.png){width="960"}
+![](img/devoxx.jpeg){width="960"}
 
 ## 2024
 
