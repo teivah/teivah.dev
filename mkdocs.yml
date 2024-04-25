@@ -3,7 +3,7 @@ site_url: https://teivah.dev
 repo_name: teivah/teivah.dev
 theme:
   name: material
-  favicon: img/avatar.jpg
+  favicon: img/devoxx.png
   icon:
     logo: material/coffee
     admonition:
