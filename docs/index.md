@@ -13,7 +13,7 @@ hide:
 </style>
 
 <center>
-<img src="../img/avatar.jpg" alt="" style="width:300px;height:300px;border-radius: 50%;">
+<img src="../img/devoxx.png" alt="" style="width:300px;height:300px;border-radius: 50%;">
 
 <th1>Teiva Harsanyi</th1>
 

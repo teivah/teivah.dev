@@ -8,8 +8,6 @@ hide:
 
 # Teiva Harsanyi's Talks
 
-![](img/devoxx.jpeg){width="960"}
-
 ## 2024
 
 ### J'ai terminé les 9 Advents of Code : Leçons Apprises - [Devoxx France](https://www.devoxx.fr/) conference (🇫🇷)
