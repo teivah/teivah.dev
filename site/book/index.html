@@ -77,7 +77,16 @@
     
     
     
-  </head>
+   <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -529,7 +538,7 @@
 
 <h1 id="100-go-mistakes">100 Go Mistakes</h1>
 <p>In 2022, I published my first (<em>and last</em>) book: <em>100 Go Mistakes and How to Avoid Them</em>.</p>
-<p><img alt="" src="../img/cover.png" /></p>
+<p><a class="glightbox" href="../img/cover.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../img/cover.png" /></a></p>
 <h2 id="book">Book</h2>
 <p>If you're a Go developer looking to improve your skills, this book is for you. With a focus on practical examples, <em>100 Go Mistakes and How to Avoid Them</em> covers a wide range of topics from concurrency and error handling to testing and code organization. You'll learn to write more idiomatic, efficient, and maintainable code and become a proficient Go developer.</p>
 <div class="admonition tip">
@@ -595,5 +604,5 @@
       <script src="../assets/javascripts/bundle.8fd75fb4.min.js"></script>
       
     
-  </body>
+  <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
 </html>
