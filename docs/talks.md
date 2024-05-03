@@ -14,6 +14,10 @@ hide:
 
 <span style="color:gray;">_Tags: #coding_</span>
 
+[YouTube video](https://www.youtube.com/watch?v=NfkHfDD0aGA) (not integrable)
+
+Slides:
+
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSOgd5vigV3pKWWX8sGR_ey8LOJnoJH_U0Yfimz2ktSEsyeuue69TqQRuXZ34_E7nyRpstlvPF4uObO/embed?start=false&loop=false" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ### 4 Reliability Anti-Patterns - [ConFoo](https://confoo.ca/en/2024/) conference (🇬🇧)
