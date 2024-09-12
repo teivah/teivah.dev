@@ -19,7 +19,7 @@ hide:
 
 <th2>Senior Software Engineer at Google</th2>
 
-<th3>Current status: _Building a newsletter ([The Coder Cafe](https://thecoder.cafe))._</th3>
+<th3>Current status: _Building a newsletter ([The Coder Cafe](https://thecoder.cafe/about))._</th3>
 
 
 <th2>[:fontawesome-brands-x-twitter:](https://twitter.com/teivah)
