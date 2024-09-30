@@ -33,6 +33,7 @@ theme:
     accent: grey
 nav:
   - 'Teiva Harsanyi': index.md
+  - newsletter.md
   - book.md
   - talks.md
   - resources.md
