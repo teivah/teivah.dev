@@ -21,6 +21,8 @@ hide:
 
 <th3>Current status: _Building a [newsletter](newsletter.md)._</th3>
 
+<th3>Book a [30-minute slot](https://calendly.com/teiva-harsanyi) with me.</th3>
+
 
 <th2>[:fontawesome-brands-x-twitter:](https://twitter.com/teivah)
 [:simple-github:](https://github.com/teivah)
