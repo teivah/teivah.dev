@@ -21,8 +21,6 @@ hide:
 
 <th3>Current status: _Building a [newsletter](newsletter.md)._</th3>
 
-<th3>Book a [30-minute slot](https://calendly.com/teiva-harsanyi) with me.</th3>
-
 
 <th2>[:fontawesome-brands-x-twitter:](https://twitter.com/teivah)
 [:simple-github:](https://github.com/teivah)
@@ -43,3 +41,5 @@ I have 12 years of experience in software engineering. I’m currently working a
 In 2022, I **published a book** called [100 Go Mistakes and How to Avoid Them](book.md). This book shows common programming mistakes in Go and how to fix them using idiomatic code. So far, it has a pretty cool note of 4.7/5 (avg on Amazon, Goodreads, and Manning), and I’m delighted that it helped that many people (over 8k copies sold, translated in five languages). Furthermore, in 2024 I released a daily [newsletter](newsletter.md) for coders and I keep writing on my [blog](https://teivah.medium.com/) from time to time (50+ posts, ~800k visits).
 
 Last but not least, I'm also an **open-source** enthusiast ([GitHub](https://github.com/teivah)) and a **public speaker** ([my talks](talks.md)).
+
+Want to chat? Schedule a [30-minute session](https://calendly.com/teiva-harsanyi) with me.
