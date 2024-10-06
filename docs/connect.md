@@ -19,7 +19,9 @@ hide:
 
 [GitHub :simple-github:](https://github.com/teivah){ .md-button .md-button--stretch }
 
-[Medium :simple-medium:](https://medium.com/@teivah){ .md-button .md-button--stretch }
+[Newsletter :simple-substack:](https://thecoder.cafe){ .md-button .md-button--stretch }
+
+[Blog :simple-medium:](https://medium.com/@teivah){ .md-button .md-button--stretch }
 
 [LinkedIn :simple-linkedin:](https://www.linkedin.com/in/teiva-harsanyi/){ .md-button .md-button--stretch }
 
