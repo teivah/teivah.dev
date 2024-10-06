@@ -24,8 +24,10 @@ hide:
 
 <th2>[:fontawesome-brands-x-twitter:](https://twitter.com/teivah)
 [:simple-github:](https://github.com/teivah)
+[:simple-substack:](https://thecoder.cafe)
 [:simple-medium:](https://medium.com/@teivah)
-[:simple-linkedin:](https://www.linkedin.com/in/teiva-harsanyi/)<th2>
+[:simple-linkedin:](https://www.linkedin.com/in/teiva-harsanyi/)
+[:simple-buymeacoffee:](https://buymeacoffee.com/teivah) <th2>
 
 </center>
 
