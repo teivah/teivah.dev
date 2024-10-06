@@ -9,9 +9,7 @@ hide:
 
 # Coding and System Interviews Preparation
 
-I released two open-source collections of flash cards that allowed me to get into a FAANG company: AlgoDeck and DesignDeck (5k+ ⭐ on :simple-github:).
+I released two open-source collections of flash cards that helped me land a role as L5 SWE at Google (senior software engineer):
 
-Feel free to have a look:
-
-[![](img/algodeck.png){width="540"}](https://github.com/teivah/algodeck)
-[![](img/designdeck.png){width="540"}](https://github.com/teivah/designdeck)
+[![](img/algodeck.png){width="540"}](https://deckly.dev)
+[![](img/designdeck.png){width="540"}](https://deckly.dev/designdeck)
