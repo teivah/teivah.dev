@@ -19,15 +19,14 @@ hide:
 
 <th2>Senior Software Engineer at Google</th2>
 
-<th3>Current status: _Building a [newsletter](newsletter.md)._</th3>
+<th3>Current status: _Building my [newsletter](newsletter.md)._</th3>
 
 
 <th2>[:fontawesome-brands-x-twitter:](https://twitter.com/teivah)
 [:simple-github:](https://github.com/teivah)
 [:simple-substack:](https://thecoder.cafe)
 [:simple-medium:](https://medium.com/@teivah)
-[:simple-linkedin:](https://www.linkedin.com/in/teiva-harsanyi/)
-[:simple-buymeacoffee:](https://buymeacoffee.com/teivah) <th2>
+[:simple-linkedin:](https://www.linkedin.com/in/teiva-harsanyi/) <th2>
 
 </center>
 
