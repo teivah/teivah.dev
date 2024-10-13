@@ -46,6 +46,7 @@ plugins:
       'confoo-reliability.md': 'https://teivah.dev/talks/#4-reliability-anti-patterns-confoo-conference'
       'confoo-aoc.md': 'https://teivah.dev/talks/#i-completed-all-9-advents-of-code-lessons-learned-confoo-conference'
       'devoxx.md': 'https://teivah.dev/talks/#jai-termine-les-9-advents-of-code-lecons-apprises-devoxx-france-conference'
+      'foo.md': 'https://gist.github.com/teivah/58b87ff319e4425dc4e3f8d8396bb98a'
 extra:
   generator: false
   analytics:
