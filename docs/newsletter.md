@@ -1,5 +1,5 @@
 ---
-title: Newsletter
+title: The Coder Cafe
 description: The Coder Cafe
 hide:
 - navigation
@@ -9,12 +9,13 @@ hide:
 
 # The Coder Cafe
 
-<center>
-<img src="../img/thecodercafe.png" alt="" style="width:450px;height:450px;border-radius: 50%;">
-</center>
-
 In 2024, I took the next step in blogging by launching a daily newsletter for software engineers:
 
-> Are you feeling overwhelmed by the endless stream of tech content? The Coder Cafe delivers one essential concept for coders every day; perfectly brewed for your morning coffee, helping you to grow deeply.
+<center>
+<img src="../img/thecodercafe.png" alt="" style="width:800px;height:400px;">
+</center>
 
-Feel free to visit [thecoder.cafe](https://thecoder.cafe) to check it out, or [thecoder.cafe/about](https://thecoder.cafe/about) to learn more.
+
+> _Feeling overwhelmed by the endless stream of tech content? At The Coder Cafe, we serve one essential concept for coders daily. Written by a senior software engineer at Google, it's perfectly brewed for your morning coffee, helping you grow your skills deeply._
+
+Feel free to visit [The Coder Cafe](https://thecoder.cafe) to check it out. Here's a secret [20% off](https://www.thecoder.cafe/97539a4e) for the visitors coming from my website.
