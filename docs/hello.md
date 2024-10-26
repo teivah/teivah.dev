@@ -1,5 +1,5 @@
 ---
-title: Let's Connect
+title: Hello 👋
 description: Connect with Teiva Harsanyi
 hide:
 - navigation
