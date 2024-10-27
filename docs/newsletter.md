@@ -12,7 +12,9 @@ hide:
 In 2024, I took the next step in blogging by launching a daily newsletter for software engineers:
 
 <center>
+<a href="https://thecoder.cafe">
 <img src="../img/thecodercafe.png" alt="" style="width:600px;height:300px;">
+</a>
 </center>
 
 
