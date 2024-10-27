@@ -43,4 +43,4 @@ In 2022, I **published a book** called [100 Go Mistakes and How to Avoid Them](b
 
 Last but not least, I'm also an **open-source** enthusiast ([GitHub](https://github.com/teivah)) and a **public speaker** ([my talks](talks.md)).
 
-Want to chat? Schedule a free [30-minute session](https://calendly.com/teiva-harsanyi) with me.
+Want to chat? Schedule a free [30-minute session](https://calendly.com/teiva-harsanyi/meet) with me.

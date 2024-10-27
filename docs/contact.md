@@ -12,4 +12,4 @@ hide:
 
 * Private: Email `hi` at domain's website or [Twitter](https://twitter.com/teivah) DM
 
-* Chat: Schedule a free [30-minute session](https://calendly.com/teiva-harsanyi) with me.
+* Chat: Schedule a free [30-minute session](https://calendly.com/teiva-harsanyi/meet) with me.
