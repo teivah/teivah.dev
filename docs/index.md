@@ -22,7 +22,8 @@ hide:
 <th3>Current status: _Working on my newsletter: [The Coder Cafe](newsletter.md)._</th3>
 
 
-<th2>[:fontawesome-brands-x-twitter:](https://twitter.com/teivah)
+<th2>[:simple-bluesky:](https://bsky.app/profile/teivah.dev)
+[:fontawesome-brands-x-twitter:](https://twitter.com/teivah)
 [:simple-substack:](https://thecoder.cafe)
 [:simple-medium:](https://medium.com/@teivah)
 [:simple-github:](https://github.com/teivah)
