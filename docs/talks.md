@@ -10,6 +10,12 @@ hide:
 
 ## 2024
 
+### Probabilistic Increment - [SRE France](https://www.meetup.com/site-reliability-engineering-france/events/304123180/) meetup
+
+Slides:
+
+<iframe src="https://docs.google.com/presentation/d/1LlGDaBorCFvdRXRkwCBd2hZPBiG3FPxbVrz5i_3gMG0/embed?start=false&loop=false" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
 ### J'ai terminé les 9 Advents of Code : Leçons Apprises - [Devoxx France](https://www.devoxx.fr/) conference (🇫🇷)
 
 <span style="color:gray;">_Tags: #coding_</span>

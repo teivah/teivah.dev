@@ -2,42 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://teivah.dev/</loc>
-         <lastmod>2024-11-12</lastmod>
+         <lastmod>2024-11-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://teivah.dev/book/</loc>
-         <lastmod>2024-11-12</lastmod>
+         <lastmod>2024-11-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://teivah.dev/confoo/</loc>
-         <lastmod>2024-11-12</lastmod>
+         <lastmod>2024-11-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://teivah.dev/contact/</loc>
-         <lastmod>2024-11-12</lastmod>
+         <lastmod>2024-11-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://teivah.dev/hello/</loc>
-         <lastmod>2024-11-12</lastmod>
+         <lastmod>2024-11-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://teivah.dev/newsletter/</loc>
-         <lastmod>2024-11-12</lastmod>
+         <lastmod>2024-11-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://teivah.dev/resources/</loc>
-         <lastmod>2024-11-12</lastmod>
+         <lastmod>2024-11-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://teivah.dev/sre-nov-2024/</loc>
+         <lastmod>2024-11-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://teivah.dev/talks/</loc>
-         <lastmod>2024-11-12</lastmod>
+         <lastmod>2024-11-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
