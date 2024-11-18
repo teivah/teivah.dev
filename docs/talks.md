@@ -10,7 +10,7 @@ hide:
 
 ## 2024
 
-### Probabilistic Increment - [SRE France](https://www.meetup.com/site-reliability-engineering-france/events/304123180/) meetup
+### Probabilistic Increment - [SRE France](https://www.meetup.com/site-reliability-engineering-france/events/304123180/) meetup (🇬🇧)
 
 Slides:
 
