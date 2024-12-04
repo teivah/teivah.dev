@@ -19,7 +19,7 @@ hide:
 
 <th2>Senior Software Engineer at Google</th2>
 
-<th3>Current status: _Working on my newsletter: [The Coder Cafe](newsletter.md)._</th3>
+<th3>Current status: _Doing the [Advent of Code](https://www.adventofcode.com)._</th3>
 
 
 <th2>[:simple-bluesky:](https://bsky.app/profile/teivah.dev)
