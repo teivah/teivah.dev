@@ -36,4 +36,4 @@ If you're a Go developer looking to improve your skills, this book is for you. W
 
 ## Website
 
-To make the book's core content more accessible to the overall <span style="color:red;">**:fontawesome-brands-golang:**</span> community, I created [100go.co](https://100go.co).
+To make the book's core content more accessible to the overall Go community, I created [100go.co](https://100go.co).
