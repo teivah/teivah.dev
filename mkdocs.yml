@@ -46,6 +46,7 @@ plugins:
       'confoo-aoc.md': 'https://teivah.dev/talks/#i-completed-all-9-advents-of-code-lessons-learned-confoo-conference'
       'devoxx.md': 'https://teivah.dev/talks/#jai-termine-les-9-advents-of-code-lecons-apprises-devoxx-france-conference'
       'foo.md': 'https://gist.github.com/teivah/ff2cdc20a7a562e65f953990fd51b8de'
+      'latency-and-user-experience.md': 'https://www.thecoder.cafe/p/latency-and-user-experience'
 extra:
   generator: false
   analytics:
