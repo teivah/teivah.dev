@@ -47,6 +47,7 @@ My book recommendations, 3 stars and up. The books are sorted first by rating (h
 - ★★★★☆ [How to Fail at Almost Everything and Still Win Big](https://www.goodreads.com/book/show/17859574-how-to-fail-at-almost-everything-and-still-win-big)
 - ★★★★☆ [Lateral Thinking](https://www.goodreads.com/book/show/10675.Lateral_Thinking)
 - ★★★★☆ [Limitless Mind](https://www.goodreads.com/book/show/42940498-limitless-mind)
+- ★★★★☆ [Show Your Work!](https://www.goodreads.com/book/show/18290401-show-your-work)
 - ★★★★☆ [The Art and Business of Online Writing](https://www.goodreads.com/book/show/55189231-the-art-and-business-of-online-writing)
 - ★★★★☆ [The Business of Belonging](https://www.goodreads.com/book/show/55180348-the-business-of-belonging)
 - ★★★★☆ [The Millionaire Fastlane](https://www.goodreads.com/book/show/18872437-the-millionaire-fastlane)
@@ -63,7 +64,3 @@ My book recommendations, 3 stars and up. The books are sorted first by rating (h
 - ★★★★☆ [How To](https://www.goodreads.com/book/show/43852758-how-to)
 - ★★★★☆ [The Universe in Your Hand](https://www.goodreads.com/book/show/22892322-the-universe-in-your-hand)
 - ★★★☆☆ [What If?](https://www.goodreads.com/book/show/55189231-the-art-and-business-of-online-writing)
-
-
-
-
