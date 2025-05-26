@@ -15,11 +15,12 @@ hide:
 <center>
 <img src="../img/devoxx.png" alt="" style="width:300px;height:300px;border-radius: 50%;">
 
-<h1 class="th1">Teiva Harsanyi</h1>
+<th1>Teiva Harsanyi</th1>
 
-<h2 class="th2">Senior Software Engineer at Google</h2>
+<th2>Senior Software Engineer at Google</th2>
 
-<p class="th3"><em>Current status: <a href="https://thecoder.cafe/?rd=teivah.dev">Writing my newsletter</a>.</em></p>
+<th3>Current status: _Writing my [newsletter](https://thecoder.cafe/?rd=teivah.dev)._</th3>
+
 
 <th2>[:simple-bluesky:](https://bsky.app/profile/teivah.dev)
 [:fontawesome-brands-x-twitter:](https://twitter.com/teivah)
