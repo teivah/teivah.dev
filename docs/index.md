@@ -10,9 +10,18 @@ hide:
   .md-content__button {
     display: none;
   }
+    th1, th2, th3 {
+    display: block;
+    text-align: center;
+    margin: 0.5em 0;
+  }
 </style>
 
+<div style="text-align: center;">
+
 <img src="../img/devoxx.png" alt="" style="width:300px;height:300px;border-radius: 50%;">
+
+</div>
 
 <th1>Teiva Harsanyi</th1>
 
