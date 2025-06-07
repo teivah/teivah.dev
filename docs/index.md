@@ -15,13 +15,6 @@ hide:
 <center>
 <img src="../img/devoxx.png" alt="" style="width:300px;height:300px;border-radius: 50%;">
 
-<th1>Teiva Harsanyi</th1>
-
-<th2>Senior Software Engineer at Google</th2>
-
-<th3>Current status: _Writing my [newsletter](https://thecoder.cafe/?rd=teivah.dev)._</th3>
-
-
 <th2>[:simple-bluesky:](https://bsky.app/profile/teivah.dev)
 [:fontawesome-brands-x-twitter:](https://twitter.com/teivah)
 [:simple-substack:](https://thecoder.cafe)
