@@ -12,7 +12,6 @@ hide:
   }
 </style>
 
-<center>
 <img src="../img/devoxx.png" alt="" style="width:300px;height:300px;border-radius: 50%;">
 
 <th1>Teiva Harsanyi</th1>
@@ -29,7 +28,6 @@ hide:
 [:simple-github:](https://github.com/teivah)
 [:material-linkedin:](https://www.linkedin.com/in/teiva-harsanyi/) 
 
-</center>
 
 --- 
 
