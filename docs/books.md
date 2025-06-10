@@ -12,6 +12,7 @@ My book recommendations, 3 stars and up. The books are sorted first by rating (h
 
 ## Computer Science
 
+- ★★★★★ [Code Health Guardian](https://www.goodreads.com/book/show/220966325-code-health-guardian)
 - ★★★★★ [Designing Data-Intensive Applications](https://www.goodreads.com/book/show/23463279-designing-data-intensive-applications)
 - ★★★★★ [Distributed Systems for Practitioners](https://www.goodreads.com/book/show/48904523-distributed-systems-for-practitioners)
 - ★★★★★ [Inside the Machine](https://www.goodreads.com/book/show/610830.Inside_the_Machine)
