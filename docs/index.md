@@ -27,7 +27,7 @@ hide:
 
 <th2>Senior Software Engineer at Google</th2>
 
-<th3>Current status: _Writing my [newsletter](https://thecoder.cafe/?rd=teivah.dev)._</th3>
+<th3>Current status: _Paternity leave._</th3>
 
 
 <th2>[:simple-bluesky:](https://bsky.app/profile/teivah.dev)
