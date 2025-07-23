@@ -38,10 +38,12 @@ My book recommendations, 3 stars and up. The books are sorted first by rating (h
 - ★★★★☆ [Tidy First?](https://www.goodreads.com/book/show/171691901-tidy-first)
 - ★★★☆☆ [AWS Cookbook](https://www.goodreads.com/book/show/58230360-aws-cookbook)
 - ★★★☆☆ [Chaos Engineering](https://www.goodreads.com/book/show/45689179-chaos-engineering)
+- ★★★☆☆ [Learning Systems Thinking](https://www.goodreads.com/book/show/205977642-learning-systems-thinking)
 - ★★★☆☆ [What Every Web Developer Should Know About HTTP](https://www.goodreads.com/book/show/18516605-what-every-web-developer-should-know-about-http)
 
 ## Personal Development
 
+- ★★★★★ [Building a Second Brain](https://www.goodreads.com/book/show/59616977-building-a-second-brain)
 - ★★★★★ [Fearless Speaking](https://www.goodreads.com/book/show/24043419-fearless-speaking)
 - ★★★★★ [How to Win Friends & Influence People](https://www.goodreads.com/book/show/4865.How_to_Win_Friends_Influence_People)
 - ★★★★☆ [Atomic Habits](https://www.goodreads.com/book/show/40121378-atomic-habits)
@@ -52,8 +54,10 @@ My book recommendations, 3 stars and up. The books are sorted first by rating (h
 - ★★★★☆ [The Art and Business of Online Writing](https://www.goodreads.com/book/show/55189231-the-art-and-business-of-online-writing)
 - ★★★★☆ [The Business of Belonging](https://www.goodreads.com/book/show/55180348-the-business-of-belonging)
 - ★★★★☆ [The Millionaire Fastlane](https://www.goodreads.com/book/show/18872437-the-millionaire-fastlane)
-- ★★★☆☆ [Fear](https://www.goodreads.com/book/show/55189231-the-art-and-business-of-online-writing)
+- ★★★★☆ [The Mom Test](https://www.goodreads.com/book/show/52283963-the-mom-test)
+- ★★★☆☆ [Made to Stick](https://www.goodreads.com/book/show/69242.Made_to_Stick)
 - ★★★☆☆ [TED Talks](https://www.goodreads.com/book/show/41044212-ted-talks)
+- ★★★☆☆ [The Art of Explanation](https://www.goodreads.com/book/show/64631477-the-art-of-explanation)
 - ★★★☆☆ [The Story Advantage](https://www.goodreads.com/book/show/56241849-the-story-advantage)
 - ★★★☆☆ [Zen](https://www.goodreads.com/book/show/41081321-zen)
 
@@ -65,3 +69,4 @@ My book recommendations, 3 stars and up. The books are sorted first by rating (h
 - ★★★★☆ [How To](https://www.goodreads.com/book/show/43852758-how-to)
 - ★★★★☆ [The Universe in Your Hand](https://www.goodreads.com/book/show/22892322-the-universe-in-your-hand)
 - ★★★☆☆ [What If?](https://www.goodreads.com/book/show/55189231-the-art-and-business-of-online-writing)
+

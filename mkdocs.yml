@@ -36,6 +36,7 @@ nav:
   - 'The Coder Cafe': https://thecoder.cafe/?rd=teivah.dev
   - book.md
   - talks.md
+  - resources.md
   - books.md
   - contact.md
 plugins:
