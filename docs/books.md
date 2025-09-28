@@ -1,6 +1,6 @@
 ---
-title: Book Recommendations
-description: Teiva Harsanyi's Book Recommendations
+title: Bookshelf
+description: Teiva Harsanyi's Bookshelf
 hide:
 - navigation
 - footer
