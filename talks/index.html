@@ -1,0 +1,1220 @@
+<!DOCTYPE html><html lang="en" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Teiva Harsanyi's talks">
+      
+      
+      
+        <link rel="canonical" href="https://teivah.dev/talks/">
+      
+      
+        <link rel="prev" href="../book/">
+      
+      
+        <link rel="next" href="../resources/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../img/devoxx.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.3">
+    
+    
+      
+        <title>Talks - Teiva Harsanyi</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+  
+  
+    
+      
+      
+    
+  
+  
+  <style>:root{--md-admonition-icon--tip:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M14%2017h3l2-4V7h-6v6h3M6%2017h3l2-4V7H5v6h3z%22/%3E%3C/svg%3E');}</style>
+
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../style.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-YK142LCQX3"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-YK142LCQX3",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-YK142LCQX3",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+  <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#teiva-harsanyis-talks" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      <!--
+  Copyright (c) 2016-2024 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!-- Determine classes -->
+
+
+
+
+
+<!-- Header -->
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+
+    <!-- Button to open drawer -->
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+
+    <!-- Button to open search modal -->
+    
+
+    <!-- Repository information -->
+    
+  </nav>
+
+  <!-- Navigation tabs (sticky) -->
+  
+  
+  
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Teiva Harsanyi
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="https://thecoder.cafe/?rd=teivah.dev" class="md-tabs__link">
+        
+  
+  
+    
+  
+  The Coder Cafe
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../book/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  100 Go Mistakes
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Talks
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../resources/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Resources
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../books/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Bookshelf
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../contact/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Contact
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+  
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Teiva Harsanyi" class="md-nav__button md-logo" aria-label="Teiva Harsanyi" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2 21h18v-2H2M20 8h-2V5h2m0-2H4v10a4 4 0 0 0 4 4h6a4 4 0 0 0 4-4v-3h2a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2"></path></svg>
+
+    </a>
+    Teiva Harsanyi
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Teiva Harsanyi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://thecoder.cafe/?rd=teivah.dev" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The Coder Cafe
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../book/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    100 Go Mistakes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Talks
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Talks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#2026" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2026">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#working-on-complex-systems-monster-scale-summit-2026-conference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Working on Complex Systems - Monster SCALE Summit 2026 conference (🇬🇧)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2024" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2024
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2024">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#probabilistic-increment-sre-france-meetup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Probabilistic Increment - SRE France meetup (🇬🇧)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#jai-termine-les-9-advents-of-code-lecons-apprises-devoxx-france-conference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        J'ai terminé les 9 Advents of Code : Leçons Apprises - Devoxx France conference (🇫🇷)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-reliability-anti-patterns-confoo-conference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4 Reliability Anti-Patterns - ConFoo conference (🇬🇧)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#i-completed-all-9-advents-of-code-lessons-learned-confoo-conference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        I Completed All 9 Advents of Code: Lessons Learned - ConFoo conference (🇬🇧)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-common-go-mistakes-golang-insiders-meetup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4 Common Go Mistakes - Golang Insiders meetup (🇬🇧)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2023" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2023
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2023">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#google-tech-and-go-with-teiva-harsanyi-ardan-labs-podcast" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Google, Tech, and Go with Teiva Harsanyi - Ardan Labs podcast (🇬🇧)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-reliability-anti-patterns-sre-france-meetup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3 Reliability Anti-Patterns - SRE France meetup (🇫🇷)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#running-a-go-app-in-kubernetes-cpu-impacts-p99-conf-conference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Running a Go App in Kubernetes: CPU Impacts - P99 Conf conference (🇬🇧)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-erreurs-courantes-en-go-golang-paris-meetup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3 Erreurs Courantes en Go - Golang Paris meetup (🇫🇷)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2021
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2021">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-to-make-mistakes-in-go-go-time-podcast" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to Make Mistakes in Go - Go Time podcast (🇬🇧)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2020" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2020
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2020">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mechanical-sympathy-in-go-gophercon-turkey-conference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mechanical Sympathy in Go - GopherCon Turkey conference (🇬🇧)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../resources/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resources
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../books/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bookshelf
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contact/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contact
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#2026" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2026">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#working-on-complex-systems-monster-scale-summit-2026-conference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Working on Complex Systems - Monster SCALE Summit 2026 conference (🇬🇧)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2024" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2024
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2024">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#probabilistic-increment-sre-france-meetup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Probabilistic Increment - SRE France meetup (🇬🇧)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#jai-termine-les-9-advents-of-code-lecons-apprises-devoxx-france-conference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        J'ai terminé les 9 Advents of Code : Leçons Apprises - Devoxx France conference (🇫🇷)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-reliability-anti-patterns-confoo-conference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4 Reliability Anti-Patterns - ConFoo conference (🇬🇧)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#i-completed-all-9-advents-of-code-lessons-learned-confoo-conference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        I Completed All 9 Advents of Code: Lessons Learned - ConFoo conference (🇬🇧)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-common-go-mistakes-golang-insiders-meetup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4 Common Go Mistakes - Golang Insiders meetup (🇬🇧)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2023" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2023
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2023">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#google-tech-and-go-with-teiva-harsanyi-ardan-labs-podcast" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Google, Tech, and Go with Teiva Harsanyi - Ardan Labs podcast (🇬🇧)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-reliability-anti-patterns-sre-france-meetup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3 Reliability Anti-Patterns - SRE France meetup (🇫🇷)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#running-a-go-app-in-kubernetes-cpu-impacts-p99-conf-conference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Running a Go App in Kubernetes: CPU Impacts - P99 Conf conference (🇬🇧)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-erreurs-courantes-en-go-golang-paris-meetup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3 Erreurs Courantes en Go - Golang Paris meetup (🇫🇷)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2021
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2021">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-to-make-mistakes-in-go-go-time-podcast" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to Make Mistakes in Go - Go Time podcast (🇬🇧)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2020" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2020
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2020">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mechanical-sympathy-in-go-gophercon-turkey-conference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mechanical Sympathy in Go - GopherCon Turkey conference (🇬🇧)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+  
+
+
+
+
+<h1 id="teiva-harsanyis-talks">Teiva Harsanyi's Talks</h1>
+<h2 id="2026">2026</h2>
+<h3 id="working-on-complex-systems-monster-scale-summit-2026-conference">Working on Complex Systems - <a href="https://www.scylladb.com/monster-scale-summit/">Monster SCALE Summit 2026</a> conference (🇬🇧)</h3>
+<p>Slides:</p>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ2Hw-0GC8O15T4G09gpfCz16Qgbxnb3YkEQ_c_0xMzMgZfrdSycDkxIlqElluxUh6yTBCqTyZgo6JM/embed?start=false&amp;loop=false" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+<h2 id="2024">2024</h2>
+<h3 id="probabilistic-increment-sre-france-meetup">Probabilistic Increment - <a href="https://www.meetup.com/site-reliability-engineering-france/events/304123180/">SRE France</a> meetup (🇬🇧)</h3>
+<p>Slides:</p>
+<iframe src="https://docs.google.com/presentation/d/1LlGDaBorCFvdRXRkwCBd2hZPBiG3FPxbVrz5i_3gMG0/embed?start=false&amp;loop=false" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+<h3 id="jai-termine-les-9-advents-of-code-lecons-apprises-devoxx-france-conference">J'ai terminé les 9 Advents of Code : Leçons Apprises - <a href="https://www.devoxx.fr/">Devoxx France</a> conference (🇫🇷)</h3>
+<p><span style="color:gray;"><em>Tags: #coding</em></span></p>
+<iframe width="960" height="540" src="https://www.youtube.com/embed/NfkHfDD0aGA?si=N_ydl9iLwnQ2sjsc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p>Slides:</p>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSOgd5vigV3pKWWX8sGR_ey8LOJnoJH_U0Yfimz2ktSEsyeuue69TqQRuXZ34_E7nyRpstlvPF4uObO/embed?start=false&amp;loop=false" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+<h3 id="4-reliability-anti-patterns-confoo-conference">4 Reliability Anti-Patterns - <a href="https://confoo.ca/en/2024/">ConFoo</a> conference (🇬🇧)</h3>
+<p><span style="color:gray;"><em>Tags: #reliability #sre</em></span></p>
+<p>Slides:</p>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSliUbEggyAxG6lXczPtR_lGRR5UIURiEJ3mlyf9Hlw-BNcfxloTWIPcwjmxeAgGxbnIAyodtpuLkEc/embed?start=false&amp;loop=false" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+<ul>
+<li><a href="https://docs.google.com/presentation/d/e/2PACX-1vSliUbEggyAxG6lXczPtR_lGRR5UIURiEJ3mlyf9Hlw-BNcfxloTWIPcwjmxeAgGxbnIAyodtpuLkEc/pub?start=false&amp;loop=false&amp;slide=id.g2b9775219ee_0_57">Google Slides</a></li>
+<li><a href="../res/confoo-2024-4-reliability-anti-patterns.pdf">PDF</a></li>
+</ul>
+<p>⭐ Selected as <a href="https://confoo.ca/en/2024/top">top 1</a> talk of the conference</p>
+<h3 id="i-completed-all-9-advents-of-code-lessons-learned-confoo-conference">I Completed All 9 Advents of Code: Lessons Learned - <a href="https://confoo.ca/en/2024/">ConFoo</a> conference (🇬🇧)</h3>
+<p><span style="color:gray;"><em>Tags: #coding</em></span></p>
+<p>Slides:</p>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS4opZu2emQk76w2u1PD9YZxOpbCY8I-qWbKY6USTCrlHAGlvfirktuINnJKtCwMR3QBpt4-ayLXqQ2/embed?start=false&amp;loop=false" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+<ul>
+<li><a href="https://docs.google.com/presentation/d/e/2PACX-1vS4opZu2emQk76w2u1PD9YZxOpbCY8I-qWbKY6USTCrlHAGlvfirktuINnJKtCwMR3QBpt4-ayLXqQ2/pub?start=false&amp;loop=false&amp;resourcekey=0-hBAWmWmBsUFwXVJAk-0KNQ&amp;slide=id.g2b14d668740_2_28">Google Slides</a></li>
+<li><a href="../res/confoo-2024-I-completed-all-9-advents-of-code.pdf">PDF</a></li>
+</ul>
+<h3 id="4-common-go-mistakes-golang-insiders-meetup">4 Common Go Mistakes - <a href="https://twitter.com/i/communities/1685641800449462272">Golang Insiders</a> meetup (🇬🇧)</h3>
+<p><span style="color:gray;"><em>Tags: #golang</em></span></p>
+<p>Slides:</p>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR9faiR0Maxpfj383l564ib3ch94N8z23MZxqCH-t7AuEiPhkGYWmRXIuHxmRzq1msQGmqjVvz-GLUo/embed?start=false&amp;loop=false" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+<ul>
+<li><a href="https://docs.google.com/presentation/d/e/2PACX-1vR9faiR0Maxpfj383l564ib3ch94N8z23MZxqCH-t7AuEiPhkGYWmRXIuHxmRzq1msQGmqjVvz-GLUo/pub?start=false&amp;loop=false">Google Slides</a></li>
+</ul>
+<h2 id="2023">2023</h2>
+<h3 id="google-tech-and-go-with-teiva-harsanyi-ardan-labs-podcast">Google, Tech, and Go with Teiva Harsanyi - Ardan Labs podcast (🇬🇧)</h3>
+<p><span style="color:gray;"><em>Tags: #golang #career</em></span></p>
+<iframe width="960" height="540" src="https://www.youtube.com/embed/RdQMjTgAfDs?si=h_ywNhbvAdF2WvFs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<h3 id="3-reliability-anti-patterns-sre-france-meetup">3 Reliability Anti-Patterns - <a href="https://www.meetup.com/fr-FR/site-reliability-engineering-france/events/296967843/">SRE France</a> meetup (🇫🇷)</h3>
+<p><span style="color:gray;"><em>Tags: #reliability # sre</em></span></p>
+<iframe width="960" height="540" src="https://www.youtube.com/embed/mpOGwttM_v4?si=BromaslA9OhIB7ZL&amp;start=1552" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<p>Slides:</p>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS3r68xeyeqmWys1I5NuQKJPCwNV-qqtpgOT8OJY0GQdg-UeuQLGvgE0-6c4m64A9lfhXK2kX12xH7e/embed?start=false&amp;loop=false" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+<ul>
+<li><a href="https://docs.google.com/presentation/d/e/2PACX-1vS3r68xeyeqmWys1I5NuQKJPCwNV-qqtpgOT8OJY0GQdg-UeuQLGvgE0-6c4m64A9lfhXK2kX12xH7e/pub?start=false&amp;loop=false">Google Slides</a></li>
+</ul>
+<h3 id="running-a-go-app-in-kubernetes-cpu-impacts-p99-conf-conference">Running a Go App in Kubernetes: CPU Impacts - <a href="https://www.p99conf.io/">P99 Conf</a> conference (🇬🇧)</h3>
+<p><span style="color:gray;"><em>Tags: #golang #kubernetes #performance</em></span></p>
+<iframe width="960" height="540" src="https://www.youtube.com/embed/OEuxfTaRB9Y?si=tjWYqX6XchAcDgS4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<p>Slides:</p>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRabs0KJAXj80z3WzDP40ZAfXBNPKpUiDE2_jgl0jqvXcvw9FcphBj5tlOwRzQUIDE4qMQx6NP37W76/embed?start=false&amp;loop=false" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+<h3 id="3-erreurs-courantes-en-go-golang-paris-meetup">3 Erreurs Courantes en Go - <a href="https://www.meetup.com/fr-FR/golang-paris/">Golang Paris</a> meetup (🇫🇷)</h3>
+<p><span style="color:gray;"><em>Tags: #golang</em></span></p>
+<ul>
+<li>
+<p>Slides:</p>
+<ul>
+<li><a href="../res/golang-paris-2023-3-erreurs-courantes-en-go.key">Keynote</a></li>
+<li><a href="../res/golang-paris-2023-3-erreurs-courantes-en-go-animations.pdf">PDF (with animations)</a></li>
+<li><a href="../res/golang-paris-2023-3-erreurs-courantes-en-go-flat.pdf">PDF (flat)</a></li>
+</ul>
+</li>
+</ul>
+<iframe width="960" height="540" src="https://www.youtube.com/embed/kRohPrlH8Tw?si=B72VtYe45uETzFHw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<h2 id="2021">2021</h2>
+<h3 id="how-to-make-mistakes-in-go-go-time-podcast">How to Make Mistakes in Go - <a href="https://changelog.com/gotime">Go Time</a> podcast (🇬🇧)</h3>
+<p><span style="color:gray;"><em>Tags: #golang #career</em></span></p>
+<iframe width="960" height="540" src="https://www.youtube.com/embed/VGOgDqDe30E?si=HErewJsxDjie92AU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<ul>
+<li><a href="https://changelog.com/gotime/190">Episode</a></li>
+<li><a href="https://open.spotify.com/episode/0K1DImrxHCy6E7zVY4AxMZ?si=akroInsPQ1mM5B5V2tHLUw&amp;dl_branch=1">Spotify</a></li>
+</ul>
+<h2 id="2020">2020</h2>
+<h3 id="mechanical-sympathy-in-go-gophercon-turkey-conference">Mechanical Sympathy in Go - <a href="https://gophercon.ist/">GopherCon Turkey</a> conference (🇬🇧)</h3>
+<p><span style="color:gray;"><em>Tags: #golang #cpu #memory #performance</em></span></p>
+<iframe width="960" height="540" src="https://www.youtube.com/embed/cetmDfqr2BU?si=oE-jUe_7DtMlmUip" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<ul>
+<li>
+<p>Slides:</p>
+<ul>
+<li><a href="../res/gophercon-turkey-2020-mechanical-sympathy.key">Keynote</a></li>
+<li><a href="../res/gophercon-turkey-2020-mechanical-sympathy-animations.pdf">PDF (with animations)</a></li>
+<li><a href="../res/gophercon-turkey-2020-mechanical-sympathy-flat.pdf">PDF (flat)</a></li>
+</ul>
+</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+
+
+  
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.expand", "navigation.sections", "navigation.instant", "navigation.instant.prefetch", "navigation.tabs", "navigation.tabs.sticky"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>

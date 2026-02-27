@@ -1,0 +1,809 @@
+<!DOCTYPE html><html lang="en" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Teiva Harsanyi's Bookshelf">
+      
+      
+      
+        <link rel="canonical" href="https://teivah.dev/books/">
+      
+      
+        <link rel="prev" href="../resources/">
+      
+      
+        <link rel="next" href="../contact/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../img/devoxx.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.3">
+    
+    
+      
+        <title>Bookshelf - Teiva Harsanyi</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+  
+  
+    
+      
+      
+    
+  
+  
+  <style>:root{--md-admonition-icon--tip:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M14%2017h3l2-4V7h-6v6h3M6%2017h3l2-4V7H5v6h3z%22/%3E%3C/svg%3E');}</style>
+
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../style.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-YK142LCQX3"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-YK142LCQX3",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-YK142LCQX3",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+  <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#books" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      <!--
+  Copyright (c) 2016-2024 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!-- Determine classes -->
+
+
+
+
+
+<!-- Header -->
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+
+    <!-- Button to open drawer -->
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+
+    <!-- Button to open search modal -->
+    
+
+    <!-- Repository information -->
+    
+  </nav>
+
+  <!-- Navigation tabs (sticky) -->
+  
+  
+  
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Teiva Harsanyi
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="https://thecoder.cafe/?rd=teivah.dev" class="md-tabs__link">
+        
+  
+  
+    
+  
+  The Coder Cafe
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../book/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  100 Go Mistakes
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../talks/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Talks
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../resources/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Resources
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Bookshelf
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../contact/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Contact
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+  
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Teiva Harsanyi" class="md-nav__button md-logo" aria-label="Teiva Harsanyi" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2 21h18v-2H2M20 8h-2V5h2m0-2H4v10a4 4 0 0 0 4 4h6a4 4 0 0 0 4-4v-3h2a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2"></path></svg>
+
+    </a>
+    Teiva Harsanyi
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Teiva Harsanyi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://thecoder.cafe/?rd=teivah.dev" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The Coder Cafe
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../book/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    100 Go Mistakes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../talks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Talks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../resources/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resources
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bookshelf
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bookshelf
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#computer-science" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Computer Science
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#personal-development" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Personal Development
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#science" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Science
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contact/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contact
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#computer-science" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Computer Science
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#personal-development" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Personal Development
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#science" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Science
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+  
+
+
+
+
+<h1 id="books">Books</h1>
+<p>My book recommendations, 3 stars and up. The books are sorted first by rating (highest to lowest) and then alphabetically within each rating.</p>
+<h2 id="computer-science">Computer Science</h2>
+<ul>
+<li>★★★★★ <a href="https://www.goodreads.com/book/show/220966325-code-health-guardian">Code Health Guardian</a></li>
+<li>★★★★★ <a href="https://www.goodreads.com/book/show/23463279-designing-data-intensive-applications">Designing Data-Intensive Applications</a></li>
+<li>★★★★★ <a href="https://www.goodreads.com/book/show/48904523-distributed-systems-for-practitioners">Distributed Systems for Practitioners</a></li>
+<li>★★★★★ <a href="https://www.goodreads.com/book/show/610830.Inside_the_Machine">Inside the Machine</a></li>
+<li>★★★★★ <a href="https://www.goodreads.com/book/show/59039072-observability-engineering">Observability Engineering</a></li>
+<li>★★★★★ <a href="https://www.goodreads.com/book/show/50967154-the-rust-programming-language">The Rust Programming Language</a></li>
+<li>★★★★★ <a href="https://www.goodreads.com/book/show/39687146-the-site-reliability-workbook">The Site Reliability Workbook</a></li>
+<li>★★★★★ <a href="https://www.goodreads.com/book/show/58655212-ultimate-go-notebook">Ultimate Go Notebook</a></li>
+<li>★★★★★ <a href="https://www.goodreads.com/book/show/56977420-understanding-distributed-systems">Understanding Distributed Systems</a></li>
+<li>★★★★★ <a href="https://www.goodreads.com/book/show/48571131-write-great-code-volume-1-2nd-edition">Write Great Code</a></li>
+<li>★★★★★ <a href="https://www.goodreads.com/book/show/219199634-writing-for-developers">Writing for Developers: Blogs that get read</a></li>
+<li>★★★★☆ <a href="https://www.goodreads.com/book/show/52362532-advanced-algorithms-and-data-structures">Advanced Algorithms and Data Structures</a></li>
+<li>★★★★☆ <a href="https://www.goodreads.com/book/show/44647144-database-internals">Database Internals</a></li>
+<li>★★★★☆ <a href="https://www.goodreads.com/book/show/3735293-clean-code">Clean Code</a></li>
+<li>★★★★☆ <a href="https://www.goodreads.com/book/show/52999746-how-linux-works">How Linux Works</a></li>
+<li>★★★★☆ <a href="https://www.goodreads.com/book/show/51771842-implementing-service-level-objectives">Implementing Service Level Objectives</a></li>
+<li>★★★★☆ <a href="https://www.goodreads.com/book/show/44144501-kubernetes-patterns">Kubernetes Patterns</a></li>
+<li>★★★★☆ <a href="https://www.goodreads.com/book/show/17085796-learn-you-a-haskell-for-great-good">Learn You a Haskell for Great Good!</a></li>
+<li>★★★★☆ <a href="https://www.goodreads.com/book/show/13607232-practical-vim">Practical Vim</a></li>
+<li>★★★★☆ <a href="https://www.goodreads.com/book/show/48816586-software-engineering-at-google">Software Engineering at Google</a></li>
+<li>★★★★☆ <a href="https://www.goodreads.com/book/show/54109255-system-design-interview-an-insider-s-guide">System Design Interview</a></li>
+<li>★★★★☆ <a href="https://www.goodreads.com/book/show/18058001-systems-performance">Systems Performance</a></li>
+<li>★★★★☆ <a href="https://www.goodreads.com/book/show/35494978-the-kubernetes-book">The Kubernetes Book</a></li>
+<li>★★★★☆ <a href="https://www.goodreads.com/book/show/171691901-tidy-first">Tidy First?</a></li>
+<li>★★★☆☆ <a href="https://www.goodreads.com/book/show/58230360-aws-cookbook">AWS Cookbook</a></li>
+<li>★★★☆☆ <a href="https://www.goodreads.com/book/show/45689179-chaos-engineering">Chaos Engineering</a></li>
+<li>★★★☆☆ <a href="https://www.goodreads.com/book/show/205977642-learning-systems-thinking">Learning Systems Thinking</a></li>
+<li>★★★☆☆ <a href="https://www.goodreads.com/book/show/18516605-what-every-web-developer-should-know-about-http">What Every Web Developer Should Know About HTTP</a></li>
+</ul>
+<h2 id="personal-development">Personal Development</h2>
+<ul>
+<li>★★★★★ <a href="https://www.goodreads.com/book/show/59616977-building-a-second-brain">Building a Second Brain</a></li>
+<li>★★★★★ <a href="https://www.goodreads.com/book/show/24043419-fearless-speaking">Fearless Speaking</a></li>
+<li>★★★★★ <a href="https://www.goodreads.com/book/show/4865.How_to_Win_Friends_Influence_People">How to Win Friends &amp; Influence People</a></li>
+<li>★★★★☆ <a href="https://www.goodreads.com/book/show/40121378-atomic-habits">Atomic Habits</a></li>
+<li>★★★★☆ <a href="https://www.goodreads.com/book/show/17859574-how-to-fail-at-almost-everything-and-still-win-big">How to Fail at Almost Everything and Still Win Big</a></li>
+<li>★★★★☆ <a href="https://www.goodreads.com/book/show/10675.Lateral_Thinking">Lateral Thinking</a></li>
+<li>★★★★☆ <a href="https://www.goodreads.com/book/show/42940498-limitless-mind">Limitless Mind</a></li>
+<li>★★★★☆ <a href="https://www.goodreads.com/book/show/18290401-show-your-work">Show Your Work!</a></li>
+<li>★★★★☆ <a href="https://www.goodreads.com/book/show/55189231-the-art-and-business-of-online-writing">The Art and Business of Online Writing</a></li>
+<li>★★★★☆ <a href="https://www.goodreads.com/book/show/55180348-the-business-of-belonging">The Business of Belonging</a></li>
+<li>★★★★☆ <a href="https://www.goodreads.com/book/show/18872437-the-millionaire-fastlane">The Millionaire Fastlane</a></li>
+<li>★★★★☆ <a href="https://www.goodreads.com/book/show/52283963-the-mom-test">The Mom Test</a></li>
+<li>★★★☆☆ <a href="https://www.goodreads.com/book/show/69242.Made_to_Stick">Made to Stick</a></li>
+<li>★★★☆☆ <a href="https://www.goodreads.com/book/show/41044212-ted-talks">TED Talks</a></li>
+<li>★★★☆☆ <a href="https://www.goodreads.com/book/show/64631477-the-art-of-explanation">The Art of Explanation</a></li>
+<li>★★★☆☆ <a href="https://www.goodreads.com/book/show/56241849-the-story-advantage">The Story Advantage</a></li>
+<li>★★★☆☆ <a href="https://www.goodreads.com/book/show/41081321-zen">Zen</a></li>
+</ul>
+<h2 id="science">Science</h2>
+<ul>
+<li>★★★★★ <a href="https://www.goodreads.com/book/show/31625636-we-have-no-idea">We Have No Idea</a></li>
+<li>★★★★★ <a href="https://www.goodreads.com/book/show/34466963-why-we-sleep">Why We Sleep</a></li>
+<li>★★★★☆ <a href="https://www.goodreads.com/book/show/57410613-frequently-asked-questions-about-the-universe">Frequently Asked Questions about the Universe</a></li>
+<li>★★★★☆ <a href="https://www.goodreads.com/book/show/43852758-how-to">How To</a></li>
+<li>★★★★☆ <a href="https://www.goodreads.com/book/show/22892322-the-universe-in-your-hand">The Universe in Your Hand</a></li>
+<li>★★★☆☆ <a href="https://www.goodreads.com/book/show/55189231-the-art-and-business-of-online-writing">What If?</a></li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+
+
+  
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.expand", "navigation.sections", "navigation.instant", "navigation.instant.prefetch", "navigation.tabs", "navigation.tabs.sticky"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>

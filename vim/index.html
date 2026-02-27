@@ -1,0 +1,1302 @@
+<!DOCTYPE html><html lang="en" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Vim Cheat Sheet">
+      
+      
+      
+        <link rel="canonical" href="https://teivah.dev/vim/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../img/devoxx.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.3">
+    
+    
+      
+        <title>Vim Cheat Sheet - Teiva Harsanyi</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+  
+  
+    
+      
+      
+    
+  
+  
+  <style>:root{--md-admonition-icon--tip:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M14%2017h3l2-4V7h-6v6h3M6%2017h3l2-4V7H5v6h3z%22/%3E%3C/svg%3E');}</style>
+
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../style.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-YK142LCQX3"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-YK142LCQX3",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-YK142LCQX3",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+  <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#action" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      <!--
+  Copyright (c) 2016-2024 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!-- Determine classes -->
+
+
+
+
+
+<!-- Header -->
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+
+    <!-- Button to open drawer -->
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+
+    <!-- Button to open search modal -->
+    
+
+    <!-- Repository information -->
+    
+  </nav>
+
+  <!-- Navigation tabs (sticky) -->
+  
+  
+  
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Teiva Harsanyi
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="https://thecoder.cafe/?rd=teivah.dev" class="md-tabs__link">
+        
+  
+  
+    
+  
+  The Coder Cafe
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../book/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  100 Go Mistakes
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../talks/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Talks
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../resources/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Resources
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../books/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Bookshelf
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../contact/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Contact
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+  
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Teiva Harsanyi" class="md-nav__button md-logo" aria-label="Teiva Harsanyi" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2 21h18v-2H2M20 8h-2V5h2m0-2H4v10a4 4 0 0 0 4 4h6a4 4 0 0 0 4-4v-3h2a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2"></path></svg>
+
+    </a>
+    Teiva Harsanyi
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Teiva Harsanyi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://thecoder.cafe/?rd=teivah.dev" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The Coder Cafe
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../book/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    100 Go Mistakes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../talks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Talks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../resources/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resources
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../books/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bookshelf
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contact/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contact
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#action" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Action
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Action">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#insert-move-to-insert-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Insert + move to insert mode
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#selection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Selection
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deletechangecopy-also-copies-to-the-unnamed-register" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Delete/Change/Copy (also copies to the unnamed register)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Delete/Change/Copy (also copies to the unnamed register)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#line" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Line
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#word" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Word
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#delete-current-character" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Delete current character
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#replace" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Replace
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#count" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Count
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#other" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Other
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#motion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Motion
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Motion">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#move" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Move
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#jump" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Jump
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scan" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Scan
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#easymotion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Easymotion
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sneak" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sneak
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#text-objects" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Text objects
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#screen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Screen
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#word_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Word
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#screen_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Screen
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Screen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#split" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Split
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resize" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resize
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#yank-also-copies-to-the-unnamed-register" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Yank (also copies to the unnamed register)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Yank (also copies to the unnamed register)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#register" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Register
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#history" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        History
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#macros" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Macros
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#search" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Search
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#other_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Other
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Other">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#actions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Actions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#navigation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Navigation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#suspend" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Suspend
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#insert-text-at-the-end-of-a-group-of-lines" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Insert text at the end of a group of lines
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#case" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Case
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#commands" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Commands
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Commands">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#substitute" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Substitute
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#global-commands" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Global commands
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#other_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Other
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+  
+
+
+
+
+  <h1>Vim Cheat Sheet</h1>
+
+<h2 id="action">Action</h2>
+<h3 id="insert-move-to-insert-mode">Insert + move to insert mode</h3>
+<ul>
+<li><code>i</code>: Before the cursor</li>
+<li><code>a</code>: After the cursor</li>
+<li><code>s</code>: Delete the character first</li>
+<li><code>I</code>: Beginning of line</li>
+<li><code>A</code>: End of line</li>
+<li><code>o</code>: New line below</li>
+<li><code>O</code>: New line above</li>
+<li><code>gi</code>: Inserts at the same place at last position</li>
+<li><code>{count}s</code>: Substitute {count} characters</li>
+</ul>
+<h3 id="selection">Selection</h3>
+<p>NOTE: We can apply each motion to expand the selection</p>
+<ul>
+<li><code>i{textobject}</code>: Select inside block <code>{textobject}</code>; e.g., i" (i for inside)</li>
+<li><code>a{textobject}</code>: Select around block <code>{textobject}</code>; e.g., a" (a for inside)</li>
+</ul>
+<p>Objects: () {} [] &lt;&gt; " ' w p // Paragraph</p>
+<h3 id="deletechangecopy-also-copies-to-the-unnamed-register">Delete/Change/Copy (also copies to the unnamed register)</h3>
+<ul>
+<li><code>d / c / y</code>: Delete / change / copy</li>
+<li><code>C</code>: Change until end of line</li>
+</ul>
+<h4 id="line">Line</h4>
+<ul>
+<li><code>dd</code> / <code>cc</code> / <code>yy</code>: Current line</li>
+<li><code>{action}^</code>: Beginning of line</li>
+<li><code>{action}$</code> or <code>{ACTION}</code>: End of line</li>
+</ul>
+<h4 id="word">Word</h4>
+<ul>
+<li><code>{action}i{textobject}</code>: Inside block <code>{textobject}</code>; e.g., i"</li>
+<li><code>{action}a{textobject}</code>: Around block <code>{textobject}</code>; e.g., a"</li>
+<li><code>{action}w/{agtion}ge</code>: Beginning of next word / End of previous word</li>
+<li><code>{action}t{char}</code>: Until <code>{char}</code> - not including</li>
+<li><code>{action}f{char}</code>: Until <code>{char}</code> - including</li>
+</ul>
+<h4 id="delete-current-character">Delete current character</h4>
+<ul>
+<li><code>x</code>: Current character</li>
+</ul>
+<h3 id="replace">Replace</h3>
+<ul>
+<li><code>r</code>: Replace a single char</li>
+<li><code>R</code>: Keep replacing</li>
+</ul>
+<h3 id="count">Count</h3>
+<ul>
+<li><code>{int}{cmd}</code>: Repeat {int} times {cmd}</li>
+</ul>
+<p>Rule: don't count if you can repeat</p>
+<h3 id="other">Other</h3>
+<ul>
+<li><code>&gt;&gt;/&lt;&lt;</code>: Indent</li>
+<li><code>J</code>: Join next line</li>
+<li><code>r&lt;enter&gt;</code>: Split a line (must be done on a whitespace)</li>
+</ul>
+<h2 id="motion">Motion</h2>
+<h3 id="move">Move</h3>
+<ul>
+<li><code>w / b</code>: Forward / backward a word (start of the word)</li>
+<li><code>W / B</code>: Forward / backward a WORD (no whitespace)</li>
+<li><code>e / ge</code>: Forward / backward a word (end/before the word)</li>
+<li><code>^ or 0 / $</code>: Beginning/end of line</li>
+<li><code>( )</code>: Forward / backward a sentence</li>
+<li><code>{ }</code>: Forward / backward a paragraph</li>
+<li><code>[{ / ]}</code>: Beginning/end of a code block</li>
+<li><code>[/]m</code>: Previous/next method</li>
+</ul>
+<h3 id="jump">Jump</h3>
+<ul>
+<li><code>gg</code>: First line of file</li>
+<li><code>G</code>: Last line of file</li>
+<li><code>g↓/↑/$/0</code>: Go to the line below/above/end/beginning (when line is wrapped)</li>
+<li><code>gv</code>: Select again the last selected text</li>
+<li><code>{int}G</code>: Go to line {int}</li>
+<li><code>5↓</code>: Move 5 lines below</li>
+<li><code>5↑</code>: Move 5 lines above</li>
+<li><code>%</code>: Matching parenthesis/bracket</li>
+<li><code>ctrl+o/i</code>: Move back / forth in jumplist</li>
+<li><code>:ju</code>: List jumps</li>
+</ul>
+<h3 id="scan">Scan</h3>
+<ul>
+<li><code>f/F{char}</code>: Move to the next/previous {char}</li>
+<li><code>t/T{char}</code>: Character before the next/previous occurrence of {char}</li>
+<li><code>;/,</code>: Repeat/reverse</li>
+</ul>
+<h3 id="easymotion">Easymotion</h3>
+<ul>
+<li><code>{leader}{leader}w/b</code>: Start of words forward / backward</li>
+<li><code>{leader}{leader}s</code>: Find a char anywhere</li>
+</ul>
+<h3 id="sneak">Sneak</h3>
+<ul>
+<li><code>s{char1}{char2}</code>: Find for the next occurrence of {char1}{char2}</li>
+<li><code>S{char1}{char2}</code>: Find backwards</li>
+<li><code>;/,</code>: Next / previous</li>
+</ul>
+<h3 id="text-objects">Text objects</h3>
+<ul>
+<li><code>(</code> <code>)</code> b: Parenthesis</li>
+<li><code>{</code> <code>}</code> B: Brace</li>
+<li><code>]</code>: Bracket</li>
+<li><code>&lt;</code> <code>&gt;</code>: Angle bracket</li>
+<li><code>'</code>: Single quote</li>
+<li><code>"</code>: Double quote</li>
+<li><code>at</code>: Tag ()</li>
+<li><code>w</code>: Word</li>
+<li><code>W</code>: WORD (with space)</li>
+<li><code>s</code>: Sentence</li>
+<li><code>p</code>: Paragraph</li>
+</ul>
+<h3 id="screen">Screen</h3>
+<ul>
+<li><code>ctrl+e``ctrl+y</code>: Scrolling down / up one line</li>
+<li><code>ctrl+d</code>/<code>ctrl+u</code>: Scrolling down / up half a screen</li>
+<li><code>zz</code>/<code>zt</code>/<code>zb</code>: Center / top / bottom screen on current line</li>
+<li><code>H</code>/<code>M</code>/<code>L</code>: Jump to top / middle / bottom of the screen</li>
+<li><code>ctrl+f</code>/<code>ctrl+b</code>: Next / previous page</li>
+</ul>
+<h3 id="word_1">Word</h3>
+<ul>
+<li><code>*</code>: Search the next occurrence of the current word (variable, function, etc), then use n/N to navigate between the matches</li>
+</ul>
+<h2 id="screen_1">Screen</h2>
+<h3 id="split">Split</h3>
+<ul>
+<li><code>ctrl+w s/v</code>: Split down/right</li>
+<li><code>ctrl+w {arrow}</code>: Focus on tab to the left / right / above / below</li>
+<li><code>ctrl+w c</code>: Close window</li>
+<li><code>ctrl+w o</code>: Close others</li>
+</ul>
+<h3 id="resize">Resize</h3>
+<ul>
+<li><code>ctrl+w =</code>: Equalize</li>
+<li><code>{int} ctrl+w _/|</code>: Set height/width to {int} rows/columns</li>
+</ul>
+<h2 id="yank-also-copies-to-the-unnamed-register">Yank (also copies to the unnamed register)</h2>
+<ul>
+<li><code>p</code>: Put after cursor</li>
+<li><code>P</code>: Put before cursor</li>
+<li><code>yyp</code>: Duplicate the line</li>
+<li><code>ddp</code>: Move line after</li>
+<li><code>xp</code>: Move char after</li>
+</ul>
+<h3 id="register">Register</h3>
+<p>By default, we use the unnamed register (""). E.g.: dd deletes and puts to the "" register&gt;</p>
+<ul>
+<li><code>"{char}{action}</code>: Puts to the {char} register</li>
+<li><code>"{char}p</code>: Put the {char} register (""p = p)</li>
+</ul>
+<h3 id="history">History</h3>
+<ul>
+<li><code>:reg</code>: Reveal registers history</li>
+<li><code>"{int}p</code>: Paste {int}th previous</li>
+<li><code>"0p</code>: Yank, delete =&gt; paste the yanked test</li>
+</ul>
+<h2 id="macros">Macros</h2>
+<ul>
+<li><code>q{char}</code>: Start macro {char}</li>
+<li><code>q</code>: Stop macro</li>
+<li><code>@{char}</code>: Play the macro {char}</li>
+<li><code>@@</code>: Play the last macro</li>
+<li><code>5@@</code>: Play 5 times the last macro</li>
+</ul>
+<p>NOTE: A macro executed in series is safe, for example if we press fX but X isn't found, the macro stops. To overcome that, we can execute macros in parallel.</p>
+<ul>
+<li><code>V (select) :normal @@</code>: Execute the macro once for each line in the selection</li>
+<li><code>q{CHAR}</code>: Append to the macro {char}</li>
+</ul>
+<h2 id="search">Search</h2>
+<ul>
+<li><code>/{text}</code>: Forward</li>
+<li><code>?{text}</code>: Backward</li>
+<li><code>n/N</code>: Next/previous</li>
+<li><code>*</code>: Go to next/previous occurrence of the current word</li>
+<li><code>\c/{text}</code>: Case insensitive</li>
+<li><code>\C/{text}</code>: Case sensitive</li>
+</ul>
+<h2 id="other_1">Other</h2>
+<h3 id="actions">Actions</h3>
+<ul>
+<li><code>u</code>: Undo</li>
+<li><code>ctrl+r</code>: Redo</li>
+<li><code>.</code>: Repeat</li>
+</ul>
+<h3 id="navigation">Navigation</h3>
+<ul>
+<li><code>:e .</code>: Open file explorer for the current working directory (edit)</li>
+<li><code>:E .</code>: Open file explorer for directory of the active buffer (explore)</li>
+<li><code>:e {file}</code>: Edit {file}</li>
+</ul>
+<h3 id="suspend">Suspend</h3>
+<ul>
+<li><code>ctrl+z</code>: Suspend vi</li>
+<li><code>fg</code>: Resume</li>
+</ul>
+<h3 id="insert-text-at-the-end-of-a-group-of-lines">Insert text at the end of a group of lines</h3>
+<ul>
+<li><code>V</code> select the lines, <code>:norm A{text}</code></li>
+</ul>
+<h3 id="case">Case</h3>
+<p>select -&gt; <code>u/U{textobject}</code>: Lowercase/Uppercase until text object</p>
+<h2 id="commands">Commands</h2>
+<h3 id="substitute">Substitute</h3>
+<ul>
+<li><code>:s/foo/bar</code>: Substitute foo to bar (line)</li>
+<li><code>:s/foo/bar/g</code>: Substitute all foo occurrences to bar (line)</li>
+<li><code>:%s/foo/bar/g</code>: Substitute all foo occurrences to bar (file)</li>
+<li><code>:.,.+4s/foo/bar/g</code>: Substitute on this line and the next 4 lines</li>
+</ul>
+<p>Or <code>&amp;</code> to repeat the same command</p>
+<p>Or <code>ctrl+v</code> to enter visual mode and select the line before executing the cmd</p>
+<h3 id="global-commands">Global commands</h3>
+<p><code>:g/foo/d</code>: Delete all lines containing foo
+<code>:g/foo/j</code>: Join into one line
+<code>:v</code>: Non-matching lines</p>
+<h3 id="other_2">Other</h3>
+<ul>
+<li><code>:changes</code>: List the changes</li>
+<li><code>:! {cmd}</code>: Run terminal command</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+
+
+  
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.expand", "navigation.sections", "navigation.instant", "navigation.instant.prefetch", "navigation.tabs", "navigation.tabs.sticky"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>
