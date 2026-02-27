@@ -8,6 +8,14 @@ hide:
 
 # Teiva Harsanyi's Talks
 
+## 2026
+
+### Working on Complex Systems - [Monster SCALE Summit 2026](https://www.scylladb.com/monster-scale-summit/) conference (🇬🇧)
+
+Slides:
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ2Hw-0GC8O15T4G09gpfCz16Qgbxnb3YkEQ_c_0xMzMgZfrdSycDkxIlqElluxUh6yTBCqTyZgo6JM/embed?start=false&loop=false" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
 ## 2024
 
 ### Probabilistic Increment - [SRE France](https://www.meetup.com/site-reliability-engineering-france/events/304123180/) meetup (🇬🇧)
